@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex; 
+    align-items: center; 
+    width: 90%;
+  }
+
+#btn-tickethack {
+    margin-left: 5vw;
+    font-weight: 100;
+    width: 6vw;
+    padding: 6px;
+    border: 2px #ffffff solid;
+    border-radius: 0px;
+    color: green;
+    background-color: white;
+    font-size: 20px;
+    justify-content: left;
+}
+
+#btn-cart {
+    margin-left: 70vw;
+    font-weight: 100;
+    width: 6vw;
+    padding: 6px;
+    border: 2px #ffffff solid;
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+
+#btn-bookings {
+    margin-left: 4vw;
+    font-weight: 100;
+    width: 6vw;
+    padding: 6px;
+    border: 2px #ffffff solid;
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+
+#container-cart {
+    background-color: rgb(219, 215, 215);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.cart-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center center;
+    margin: 50px;
+    background-color: white;
+    height: 30%;
+    width: 90%;
+    border: 2px #ffffff solid;
+    border-radius: 10px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center center;
+}

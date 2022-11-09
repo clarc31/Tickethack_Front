@@ -2,14 +2,13 @@
 
 <html> 
 
-
 <head> 
 
+<link rel="stylesheet" href="style.css"/> 
+<meta charset="utf-8">
 <title>TicketHack</title>
-<link rel="stylesheet" href="style.css" /> 
 
 </head> 
-
 
 <body> 
 
@@ -28,21 +27,41 @@
     </a> 
 
   </div> 
+
+
     <div id="container">
         
-        <div id="container-background"> 
-            <a>
-            <img id="background" src="images/background.jpg" /> 
-            </a> 
-        </div>
-
-        <div id="container-text">
+        <div id="container-background">
+          <div id="container-text">
 
             <h1>Explore the world effortlessly by train</h1>
             <h2>Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack.</h2>
 
         </div> 
-    </div>
+
+        <div class="boxes">
+
+        <div id="white-box-left">
+          <input id="departure" type="text" placeholder="Departure">
+          <input id="arrival" type="text" placeholder="Arrival">
+          <input type="date"> 
+            <button type="button" id="btn-search">Search</button>
+
+          </div>
+
+        <div id="white-box-right">
+          <img id="logo" src="images/train.png" alt="Logo">
+          <p1>It's time to book your future trip</p1>
+
+          <img id="logo" src="images/notfound.png" alt="Logo">
+          <p2>No trip found.</p2>
+        </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
 
   <script src="script.js"></script> 
 
